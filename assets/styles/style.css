@@ -10,3 +10,19 @@ h1 {
     text-decoration: none;
     color: black;
 }
+
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+}
