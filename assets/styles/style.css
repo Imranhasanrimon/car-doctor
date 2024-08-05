@@ -42,3 +42,19 @@ header nav ul {
     display: flex;
     gap: 40px;
 }
+
+header .hero {
+    border-radius: 10px;
+
+    background: linear-gradient(90.00deg, rgb(21, 21, 21), rgba(21, 21, 21, 0) 100%), url(../images/banner/1.jpg);
+}
+
+header .hero .one {
+    background: rgb(255, 56, 17);
+    color: white;
+}
+
+header .hero .one {
+    color: white;
+    border: 1px solid white;
+}
