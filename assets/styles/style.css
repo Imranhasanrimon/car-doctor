@@ -11,10 +11,26 @@ h1 {
     color: black;
 }
 
-header {
-    max-width: 1440px;
-    margin: 0 auto;
+/* Shared styles  */
+header,
+section {
+    max-width: 1480px;
+    margin: 50px auto;
+    padding: 20px;
 }
+
+.btn-primary {
+    color: rgb(255, 56, 17);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 56, 17);
+    border-radius: 5px;
+    background: transparent;
+    padding: 15px 30px;
+}
+
+/* header section starts here  */
+
 
 header nav {
     display: flex;
