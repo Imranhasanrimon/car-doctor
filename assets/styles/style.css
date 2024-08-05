@@ -47,6 +47,24 @@ header .hero {
     border-radius: 10px;
 
     background: linear-gradient(90.00deg, rgb(21, 21, 21), rgba(21, 21, 21, 0) 100%), url(../images/banner/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+header .hero .text {
+    max-width: 500px;
+}
+
+header .hero h1 {
+    color: white;
+    font-size: 3.75rem;
+}
+
+header .hero p {
+    color: white;
 }
 
 header .hero .one {
