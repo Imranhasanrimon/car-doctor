@@ -60,6 +60,7 @@ header .hero {
     background-size: cover;
     padding: 100px;
     margin-top: 70px;
+    position: relative;
 
 }
 
@@ -80,9 +81,29 @@ header .hero p {
 header .hero .one {
     background: rgb(255, 56, 17);
     color: white;
+    margin-right: 20px;
 }
 
 header .hero .two {
     color: white;
     border: 1px solid white;
+}
+
+header .hero .position {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.hero .fa-solid {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.hero .fa-arrow-right {
+    background: rgb(255, 56, 17);
+    margin-left: 20px;
 }
