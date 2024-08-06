@@ -128,3 +128,13 @@ header .hero .position {
     background: rgb(255, 56, 17);
     margin-left: 20px;
 }
+
+/* service section starts here  */
+.service .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service .container img {
+    width: 100%;
+}
