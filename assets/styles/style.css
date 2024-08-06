@@ -1,6 +1,4 @@
-h1 {
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     padding: 0;
@@ -9,6 +7,7 @@ h1 {
     list-style: none;
     text-decoration: none;
     color: black;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Shared styles  */
@@ -43,14 +42,24 @@ header nav ul {
     gap: 40px;
 }
 
+header nav ul li a {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+header nav h3 {
+    font-size: 2rem;
+    color: rgb(255, 56, 17);
+}
+
 header .hero {
     border-radius: 10px;
-
-    background: linear-gradient(90.00deg, rgb(21, 21, 21), rgba(21, 21, 21, 0) 100%), url(../images/banner/1.jpg);
+    background: linear-gradient(90.00deg, rgb(21, 21, 21), rgba(21, 21, 21, 0) 100%), url(../images/banner/5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 100px;
+    margin-top: 70px;
 
 }
 
@@ -65,6 +74,7 @@ header .hero h1 {
 
 header .hero p {
     color: white;
+    margin: 30px 0;
 }
 
 header .hero .one {
@@ -72,7 +82,7 @@ header .hero .one {
     color: white;
 }
 
-header .hero .one {
+header .hero .two {
     color: white;
     border: 1px solid white;
 }
