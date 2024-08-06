@@ -1,0 +1,36 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+
+    /* some shared styles  */
+    .btn-primary {
+        padding: 10px;
+        font-size: .75rem;
+    }
+
+    /* header section starts here  */
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav h3 {
+        font-size: 1.5rem;
+    }
+
+    header .hero {
+        padding: 20px;
+    }
+
+    header .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    header .hero .position {
+        display: none;
+    }
+
+    header .hero .one {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
