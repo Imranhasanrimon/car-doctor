@@ -54,6 +54,14 @@
         align-self: center;
         width: 80%;
     }
+
+    /* event section starts here  */
+    .event {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
 }
 
 /* for medium devices  */
@@ -102,5 +110,12 @@
 
     .about .text {
         max-width: 90%;
+    }
+
+    /* event section starts here  */
+    .event {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
 }

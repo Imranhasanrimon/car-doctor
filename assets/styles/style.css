@@ -210,3 +210,28 @@ header .hero .position {
     display: block;
     margin: 0 auto;
 }
+
+/* event section starts here  */
+.event {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(21, 21, 21);
+    padding: 70px 0;
+
+}
+
+.event>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.event i {
+    color: white;
+    font-size: 2rem;
+}
+
+.event p,
+.event h3 {
+    color: white;
+}
