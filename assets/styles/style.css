@@ -129,6 +129,49 @@ header .hero .position {
     margin-left: 20px;
 }
 
+/* about us section starts here  */
+.about {
+    display: flex;
+    gap: 120px;
+}
+
+.about .image {
+    position: relative;
+    align-self: flex-start;
+    width: 460px;
+}
+
+.about .image .person {
+    width: 100%;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.about .image .parts {
+    position: absolute;
+    bottom: -80px;
+    right: -60px;
+    width: 70%;
+    height: 300px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.about .text {
+    max-width: 600px;
+    flex-shrink: 5;
+
+    button {
+        background: rgb(255, 56, 17);
+        color: white;
+    }
+}
+
+.about .text p,
+.about .text .title {
+    margin: 20px 0;
+}
+
 /* service section starts here  */
 .service .container {
     display: grid;

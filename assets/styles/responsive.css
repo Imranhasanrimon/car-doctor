@@ -42,6 +42,18 @@
     .service .container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* about us section starts here  */
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .image {
+        align-self: center;
+        width: 80%;
+    }
 }
 
 /* for medium devices  */
@@ -75,5 +87,20 @@
     /* service section starts here  */
     .service .container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* about us section starts here  */
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .image {
+        align-self: center;
+    }
+
+    .about .text {
+        max-width: 90%;
     }
 }
