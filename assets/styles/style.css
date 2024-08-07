@@ -255,3 +255,7 @@ header .hero .position {
     width: 60%;
     height: 215px;
 }
+
+.product .container .box .icon i {
+    color: rgb(255, 145, 44);
+}
