@@ -345,9 +345,9 @@ footer {
     max-width: 280px;
 }
 
-.footer .container .head {
+.footer .head {
     color: white;
     font-size: 1.25rem;
     font-weight: 600;
-    display: none;
+    margin-bottom: 40px;
 }

@@ -78,6 +78,12 @@
         gap: 20px;
     }
 
+    /* footer area starts here  */
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
 }
 
 /* for medium devices  */
@@ -146,4 +152,15 @@
     .testimonial .container {
         gap: 20px;
     }
+
+    /* footer area starts here  */
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .footer .company {
+        grid-column: span 2;
+    }
+
 }
