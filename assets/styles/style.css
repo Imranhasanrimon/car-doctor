@@ -280,3 +280,32 @@ header .hero .position {
 .team .container .box .icon img {
     width: 40px;
 }
+
+/* testimonial section starts here  */
+.testimonial .container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.testimonial .container .box {
+    max-width: 600px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.testimonial .container .box .user {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial .container .box .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

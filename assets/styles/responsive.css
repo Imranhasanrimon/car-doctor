@@ -72,6 +72,12 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* testimonial section starts here  */
+    .testimonial .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
 
 /* for medium devices  */
@@ -137,5 +143,10 @@
     /* team section starts here  */
     .team .container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* testimonial section starts here  */
+    .testimonial .container {
+        gap: 20px;
     }
 }
