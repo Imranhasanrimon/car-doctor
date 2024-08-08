@@ -264,7 +264,7 @@ header .hero .position {
 .team .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
+    gap: 70px;
     margin-top: 50px;
 }
 

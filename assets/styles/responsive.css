@@ -67,6 +67,11 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* team section starts here  */
+    .team .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 /* for medium devices  */
@@ -126,6 +131,11 @@
 
     /* product section starts here  */
     .product .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* team section starts here  */
+    .team .container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
