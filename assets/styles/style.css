@@ -12,7 +12,8 @@
 
 /* Shared styles  */
 header,
-section {
+section,
+.footer {
     max-width: 1480px;
     margin: 50px auto;
     padding: 20px;
@@ -308,4 +309,45 @@ header .hero .position {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+/* footer area starts here  */
+footer {
+    background: black;
+    padding: 130px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.footer .icon {
+    grid-column: span 2;
+}
+
+.footer .icon h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer .icon .link i {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer p,
+.footer .data {
+    color: white;
+    max-width: 280px;
+}
+
+.footer .container .head {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: none;
 }
